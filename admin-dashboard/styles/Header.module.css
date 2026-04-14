@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 24px;
+}
+
+.header h1 {
+	font-size: 28px;
+	color: #111827;
+}
+
+.profile {
+	background: white;
+	color: #111827;
+	padding: 10px 16px;
+	border-radius: 12px;
+	font-weight: 600;
+	min-width: 76px;
+	text-align: center;
+}
+
+/* DARK MODE */
+:global(body.dark-theme) .header h1 {
+	color: #f9fafb;
+}
+
+:global(body.dark-theme) .profile {
+	background: #111827;
+	color: #f9fafb;
+	border: 1px solid #374151;
+}

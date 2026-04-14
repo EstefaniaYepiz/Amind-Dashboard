@@ -1,0 +1,61 @@
+.page {
+	min-height: 100vh;
+	padding: 32px;
+	background: #f5f7fb;
+}
+
+.card {
+	max-width: 800px;
+	margin: 0 auto;
+	background: white;
+	border-radius: 16px;
+	padding: 32px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.backLink {
+	display: inline-block;
+	margin-bottom: 24px;
+	text-decoration: none;
+	color: #111827;
+	font-weight: 600;
+}
+
+.title {
+	margin-bottom: 24px;
+	font-size: 32px;
+}
+
+.infoGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.infoItem {
+	background: #f9fafb;
+	padding: 18px;
+	border-radius: 12px;
+}
+
+.infoItem span {
+	display: block;
+	font-size: 13px;
+	color: #6b7280;
+	margin-bottom: 8px;
+}
+
+.infoItem strong {
+	font-size: 16px;
+	color: #111827;
+}
+
+@media (max-width: 700px) {
+	.infoGrid {
+		grid-template-columns: 1fr;
+	}
+
+	.card {
+		padding: 24px;
+	}
+}

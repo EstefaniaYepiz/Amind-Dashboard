@@ -1,0 +1,31 @@
+.card {
+	background: white;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+	color: #111827;
+}
+
+.card p {
+	color: #6b7280;
+	margin-bottom: 8px;
+}
+
+.card h3 {
+	font-size: 28px;
+	color: #111827;
+}
+
+:global(body.dark-theme) .card {
+	background: #1f2937;
+	color: #f9fafb;
+	box-shadow: none;
+}
+
+:global(body.dark-theme) .card p {
+	color: #9ca3af;
+}
+
+:global(body.dark-theme) .card h3 {
+	color: #f9fafb;
+}
